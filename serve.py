@@ -2,7 +2,7 @@ import http.server
 import socketserver
 
 PORT = 3000
-DIRECTORY = "."
+DIRECTORY = "web"
 
 
 class Handler(http.server.SimpleHTTPRequestHandler):
